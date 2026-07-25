@@ -17,9 +17,9 @@ O material apresenta:
 
 ## Autoria e vínculo acadêmico
 
-**Autor:** Bruno Belo Lima  
-**Orientadora:** Profa. Dra. Rosângela Soares Chriguer  
-**Coorientadora:** Profa. Dra. Lúcia da Rocha Uchôa Figueiredo  
+**Autor:** Bruno Belo Lima<br>
+**Orientadora:** Profa. Dra. Rosângela Soares Chriguer<br>
+**Coorientadora:** Profa. Dra. Lúcia da Rocha Uchôa Figueiredo<br>
 **Turma:** 2025-2027
 
 Produto educacional do Mestrado Profissional do Programa de Pós-Graduação
@@ -76,4 +76,3 @@ git push -u origin main
 ## Site publicado
 
 [Acessar o infográfico](https://infografico-paliativos-aps.brunobelolimacp.chatgpt.site/)
-
