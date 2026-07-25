@@ -74,6 +74,7 @@ const metricIcons: Record<DetailKey, string> = {
 
 export default function Home() {
   const [active, setActive] = useState<DetailKey | null>(null);
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -148,7 +149,7 @@ export default function Home() {
           >
             <img
               className="logo-unifesp"
-              src="/logo-unifesp.png"
+              src={`${basePath}/logo-unifesp.png`}
               alt="UNIFESP — Universidade Federal de São Paulo"
             />
           </a>
@@ -161,7 +162,7 @@ export default function Home() {
           >
             <img
               className="logo-telenordeste"
-              src="/logo-telenordeste.png"
+              src={`${basePath}/logo-telenordeste.png`}
               alt="Projeto TeleNordeste"
             />
           </a>
@@ -173,7 +174,7 @@ export default function Home() {
           >
             <img
               className="logo-bp"
-              src="/logo-bp.png"
+              src={`${basePath}/logo-bp.png`}
               alt="BP — A Beneficência Portuguesa de São Paulo"
             />
           </a>

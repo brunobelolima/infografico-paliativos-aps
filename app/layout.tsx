@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const metadata: Metadata = {
   title: "Resultados do II Curso de Abordagem Paliativa na APS",
   description:
     "Infográfico interativo com os resultados do curso por Telessaúde do projeto TeleNordeste-BP.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: `${basePath}/favicon.svg`,
+    shortcut: `${basePath}/favicon.svg`,
   },
 };
 
