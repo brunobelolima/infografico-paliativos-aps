@@ -61,7 +61,7 @@ const details: Record<
       "22 horas de atividades teóricas síncronas, gravadas e disponíveis na plataforma.",
       "Dessas atividades, 19 horas foram exclusivas para inscritos e três horas abertas ao público.",
       "Uma hora de atividade prática, com discussão de caso por teleconsultoria para profissionais da assistência.",
-      "18 horas destinadas ao estudo.",
+      "17 horas destinadas ao estudo.",
       "Módulo opcional de Cuidados Paliativos pediátricos com 10 horas.",
     ],
     accent: "book",
