@@ -296,11 +296,10 @@ a:focus-visible {
   position: absolute;
   z-index: 3;
   top: calc(50% - 130px);
-  left: calc(50% + 35px);
-  width: min(170px, calc(100% - 28px));
+  right: 14px;
+  width: calc(50% - 14px);
   margin: 0;
   padding: 11px 12px;
-  transform: translateX(-50%);
   border-radius: 14px;
   background: var(--purple-dark);
   color: var(--white);
