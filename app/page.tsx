@@ -31,11 +31,7 @@ const details: Record<
     value: "Resultados pré e pós",
     copy: "Foram avaliados 59 profissionais de saúde por meio do Questionário de Conhecimento e Autoeficácia sobre Cuidados Paliativos, aplicado antes e após o curso.",
     items: [
-      "Conhecimento: 2,98 para 3,07; diferença média de 0,09 ponto (IC95%: 0,01 a 0,18; p = 0,032).",
-      "Autoeficácia: 3,39 para 3,67; diferença média de 0,28 ponto (IC95%: 0,16 a 0,41; p < 0,001).",
       "Houve aumento estatisticamente significativo nos dois desfechos.",
-      "Nenhum item isolado de conhecimento apresentou diferença significativa.",
-      "Na autoeficácia, houve melhora significativa nos itens AE3, AE5, AE6, AE8, AE9, AE10 e AE11.",
     ],
     accent: "brain",
   },
