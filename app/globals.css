@@ -295,11 +295,12 @@ a:focus-visible {
 .course-question {
   position: absolute;
   z-index: 3;
-  top: 16px;
-  right: 14px;
+  top: calc(50% - 130px);
+  left: calc(50% + 35px);
   width: min(170px, calc(100% - 28px));
   margin: 0;
   padding: 11px 12px;
+  transform: translateX(-50%);
   border-radius: 14px;
   background: var(--purple-dark);
   color: var(--white);
