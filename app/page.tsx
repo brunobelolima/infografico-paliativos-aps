@@ -53,11 +53,11 @@ const details: Record<
   estrutura: {
     title: "Estrutura do curso",
     value: "40 h",
-    copy: "A formação combinou atividades síncronas, conteúdos gravados e aplicação prática por Telessaúde.",
+    copy: "A formação combinou atividades síncronas, cujas aulas também ficavam gravadas para posterior visualização, e aplicação prática por Telessaúde.",
     items: [
       "Carga horária total de 40 horas.",
       "19 horas de aulas síncronas exclusivas para os participantes.",
-      "Aulas gravadas disponibilizadas no Moodle.",
+      "As aulas síncronas também ficavam gravadas para posterior visualização no Moodle.",
       "Três encontros síncronos abertos ao público.",
       "Uma hora de atividade prática por teleconsultoria.",
     ],
