@@ -39,13 +39,7 @@ const details: Record<
     title: "Net Promoter Score",
     value: "+95",
     copy: "O Net Promoter Score mede a disposição dos participantes em recomendar a experiência formativa.",
-    items: [
-      "O curso alcançou NPS de +95.",
-      "Satisfação geral com a experiência: média 9,7.",
-      "Recomendação do curso a colegas: média 9,6.",
-      "Organização do conteúdo: média 9,6; atividades e exercícios: 9,4.",
-      "Aumento percebido do conhecimento: 9,1; aplicabilidade: 8,9; carga horária: 8,6.",
-    ],
+    items: [],
     accent: "smile",
   },
   estrutura: {
@@ -127,11 +121,13 @@ export default function Home() {
           <strong className="detail-value">{details[key].value}</strong>
         )}
         <p>{details[key].copy}</p>
-        <ul className="detail-list">
-          {details[key].items.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
+        {details[key].items.length > 0 && (
+          <ul className="detail-list">
+            {details[key].items.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        )}
       </section>
     </>
   );
