@@ -205,7 +205,7 @@ a:focus-visible {
 .course-visual {
   position: relative;
   overflow: hidden;
-  min-height: 350px;
+  min-height: 375px;
   background: #e9e3bd;
 }
 
@@ -232,7 +232,7 @@ a:focus-visible {
 
 .cactus {
   position: absolute;
-  bottom: 88px;
+  bottom: 116px;
   width: 52px;
   border-radius: 26px 26px 0 0;
   background: #2f7771;
@@ -272,7 +272,7 @@ a:focus-visible {
 .play-button {
   position: absolute;
   left: 50%;
-  top: calc((100% - 88px) / 2);
+  top: calc((100% - 116px) / 2);
   display: grid;
   width: 68px;
   height: 68px;
@@ -859,7 +859,7 @@ footer a {
   }
 
   .course-visual {
-    min-height: 315px;
+    min-height: 345px;
   }
 
   .metrics {
