@@ -298,46 +298,48 @@ export default function Home() {
             ))}
         </section>
 
-        <section className="feedbacks" aria-label="Perfil dos participantes">
+        <section className="feedbacks" aria-label="Feedbacks dos participantes">
           <article className="feedback feedback-positive">
-            <span className="feedback-label">Perfil da amostra · n = 59</span>
+            <span className="feedback-label">Feedback positivo</span>
             <blockquote>
-              83,05% eram mulheres, com idade média de 39,25 anos. A distribuição
-              foi: Maranhão 45,76%, Piauí 33,90% e Alagoas 20,34%.
+              “O melhor curso que já realizei. Nunca vi um curso a distância ser
+              tão presente, tão organizado, com uma equipe dos melhores e mais
+              capacitados profissionais. Que venham mais cursos como este:
+              claro, objetivo, enriquecedor e lúdico. Parabéns a todos os
+              envolvidos.”
             </blockquote>
           </article>
           <article className="feedback feedback-negative">
-            <span className="feedback-label">Atuação e experiência</span>
+            <span className="feedback-label">Feedbacks negativos</span>
             <blockquote>
-              72,88% atuavam na APS e 67,80% estavam vinculados a Unidades
-              Básicas de Saúde. Enfermeiros representaram 38,98% e médicos,
-              22,03%.
+              “Tem que se pensar nos alunos que de alguma forma não têm acesso a
+              notebooks ou computadores, apenas celular.”
             </blockquote>
             <blockquote>
-              67,80% não possuíam formação prévia em cuidados paliativos, embora
-              61,02% já tivessem cuidado de pacientes nessa condição.
+              “Tive dificuldade no decorrer do curso para entrar nas aulas.
+              Acesso complexo, tendo que entrar duas vezes no e-mail para anexar
+              código. Isso atrapalha o acesso.”
             </blockquote>
           </article>
         </section>
 
         <section className="recommendations" aria-labelledby="recommendations">
-          <h2 id="recommendations">Síntese dos resultados</h2>
+          <h2 id="recommendations">Sugestões do pesquisador</h2>
           <ol>
             <li>
-              Estudo quase-experimental de grupo único, com avaliação pré e
-              pós-intervenção, sem randomização e sem grupo controle.
+              Melhorar a usabilidade da plataforma, tornando-a mais simples e
+              acessível, especialmente em dispositivos móveis.
             </li>
             <li>
-              O aumento foi significativo nos escores totais de conhecimento e
-              autoeficácia, com evolução mais acentuada da autoeficácia.
+              Ampliar estratégias práticas, como estudos de caso e simulações.
             </li>
             <li>
-              O tempo mediano de resposta passou de 10,25 para 10,40 minutos,
-              sem diferença estatisticamente significativa (p = 0,173).
+              Adaptar o conteúdo conforme a categoria profissional, com trilhas
+              específicas.
             </li>
             <li>
-              A avaliação qualitativa dos comentários abertos dos participantes
-              está em andamento.
+              Implementar acompanhamento pós-curso para reforço e manutenção do
+              aprendizado.
             </li>
           </ol>
         </section>
