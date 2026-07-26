@@ -232,7 +232,7 @@ a:focus-visible {
 
 .cactus {
   position: absolute;
-  bottom: 116px;
+  bottom: 0;
   width: 52px;
   border-radius: 26px 26px 0 0;
   background: #2f7771;
@@ -272,7 +272,7 @@ a:focus-visible {
 .play-button {
   position: absolute;
   left: 50%;
-  top: calc((100% - 116px) / 2);
+  top: 50%;
   display: grid;
   width: 68px;
   height: 68px;
@@ -295,16 +295,16 @@ a:focus-visible {
 .course-question {
   position: absolute;
   z-index: 3;
+  top: 16px;
   right: 14px;
-  bottom: 14px;
-  left: 14px;
+  width: min(170px, calc(100% - 28px));
   margin: 0;
-  padding: 13px 15px;
+  padding: 11px 12px;
   border-radius: 14px;
   background: var(--purple-dark);
   color: var(--white);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.86rem;
+  font-size: 0.78rem;
   font-weight: 700;
   line-height: 1.35;
   text-align: center;
