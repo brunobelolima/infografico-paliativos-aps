@@ -205,7 +205,7 @@ a:focus-visible {
 .course-visual {
   position: relative;
   overflow: hidden;
-  min-height: 280px;
+  min-height: 350px;
   background: #e9e3bd;
 }
 
@@ -232,7 +232,7 @@ a:focus-visible {
 
 .cactus {
   position: absolute;
-  bottom: 0;
+  bottom: 88px;
   width: 52px;
   border-radius: 26px 26px 0 0;
   background: #2f7771;
@@ -272,7 +272,7 @@ a:focus-visible {
 .play-button {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: calc((100% - 88px) / 2);
   display: grid;
   width: 68px;
   height: 68px;
@@ -290,6 +290,25 @@ a:focus-visible {
 
 .play-button:hover {
   transform: translate(-50%, -50%) scale(1.08);
+}
+
+.course-question {
+  position: absolute;
+  z-index: 3;
+  right: 14px;
+  bottom: 14px;
+  left: 14px;
+  margin: 0;
+  padding: 13px 15px;
+  border-radius: 14px;
+  background: var(--purple-dark);
+  color: var(--white);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  box-shadow: 0 8px 22px rgba(32, 28, 76, 0.2);
 }
 
 .course-copy {
@@ -840,7 +859,7 @@ footer a {
   }
 
   .course-visual {
-    min-height: 240px;
+    min-height: 315px;
   }
 
   .metrics {

@@ -214,7 +214,7 @@ export default function Home() {
         </header>
 
         <section className="course-overview" aria-labelledby="course-title">
-          <div className="course-visual" aria-hidden="true">
+          <div className="course-visual">
             <div className="sun" />
             <div className="cactus cactus-one" />
             <div className="cactus cactus-two" />
@@ -227,6 +227,10 @@ export default function Home() {
             >
               ▶
             </a>
+            <p className="course-question">
+              Qual foi o impacto do segundo II Curso de Abordagem Paliativa na
+              APS?
+            </p>
           </div>
           <div className="course-copy">
             <h2 id="course-title">O curso</h2>
