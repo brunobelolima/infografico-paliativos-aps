@@ -295,7 +295,7 @@ a:focus-visible {
 .course-question {
   position: absolute;
   z-index: 3;
-  top: calc(50% - 130px);
+  top: calc(50% - 150px);
   right: 14px;
   width: calc(50% - 14px);
   margin: 0;
