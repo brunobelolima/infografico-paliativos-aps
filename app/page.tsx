@@ -193,7 +193,7 @@ export default function Home() {
             </small>
             <small>Autoria: Bruno Belo Lima</small>
             <small>
-              Orientadora: Profa. Dra. Rosângela Soares Chriguer
+              Orientadora: Profa. Dra. Rosangela Soares Chriguer
             </small>
             <small>
               Coorientadora: Profa. Dra. Lúcia da Rocha Uchôa Figueiredo
