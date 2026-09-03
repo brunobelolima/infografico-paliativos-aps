@@ -37,7 +37,7 @@ const details: Record<
   },
   nps: {
     title: "Net Promoter Score",
-    value: "+95",
+    value: "+91,5",
     copy: "O Net Promoter Score mede a disposição dos participantes em recomendar a experiência formativa.",
     items: [],
     accent: "smile",
