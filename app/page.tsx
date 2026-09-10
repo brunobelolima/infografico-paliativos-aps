@@ -15,7 +15,7 @@ const details: Record<
   }
 > = {
   retencao: {
-    title: "Taxa de retenção",
+    title: "Taxa de conclusão",
     value: "35%",
     copy: "A taxa considera os participantes que efetivamente iniciaram o curso e chegaram à conclusão.",
     items: [
