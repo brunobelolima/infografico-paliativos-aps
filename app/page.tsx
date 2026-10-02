@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-type DetailKey = "retencao" | "conhecimento" | "nps" | "estrutura";
+type DetailKey = "conclusao" | "conhecimento" | "nps" | "estrutura";
 
 const details: Record<
   DetailKey,
@@ -14,7 +14,7 @@ const details: Record<
     accent: string;
   }
 > = {
-  retencao: {
+  conclusao: {
     title: "Taxa de conclusão",
     value: "35%",
     copy: "A taxa considera os participantes que efetivamente iniciaram o curso e chegaram à conclusão.",
@@ -59,7 +59,7 @@ const details: Record<
 };
 
 const metricIcons: Record<DetailKey, string> = {
-  retencao: "◔",
+  conclusao: "◔",
   conhecimento: "✦",
   nps: "⌣",
   estrutura: "▤",
@@ -342,6 +342,17 @@ export default function Home() {
               aprendizado.
             </li>
           </ol>
+        </section>
+
+        <section className="course-planner" aria-labelledby="course-planner-title">
+          <div className="course-planner-content">
+            <span className="course-planner-kicker">Ferramenta interativa</span>
+            <h2 id="course-planner-title">Como planejar um curso por Teleducação em Cuidados Paliativos?</h2>
+            <p>A partir dos resultados desta pesquisa e das evidências da literatura, foi desenvolvido um fluxo decisório interativo para apoiar o planejamento de cursos de Cuidados Paliativos por Telessaúde.</p>
+            <a className="course-planner-button" href="https://brunobelolima.github.io/fluxodecisoriocurso/" target="_blank" rel="noopener noreferrer">
+              Acessar o fluxo decisório <span aria-hidden="true">→</span>
+            </a>
+          </div>
         </section>
 
         <footer>

@@ -7,7 +7,7 @@ TeleNordeste-BP.
 O material apresenta:
 
 - estrutura e carga horária do curso;
-- inscrições, participação e taxa de retenção;
+- inscrições, participação e taxa de conclusão;
 - resultados de conhecimento e autoeficácia;
 - Net Promoter Score (NPS);
 - feedbacks dos participantes;
@@ -76,3 +76,15 @@ git push -u origin main
 ## Site publicado
 
 [Acessar o infográfico](https://infografico-paliativos-aps.brunobelolimacp.chatgpt.site/)
+
+## Atualização de 02/10/2026
+
+Inclui a seção de planejamento do curso, após as sugestões do pesquisador,
+com botão para https://brunobelolima.github.io/fluxodecisoriocurso/.
+Mantém a taxa de conclusão de 35% e os demais dados do infográfico.
+
+Para atualizar o repositório existente, copie os arquivos desta pasta para
+`brunobelolima/infografico-paliativos-aps`, preservando também `.github/workflows`.
+No GitHub, em Settings → Pages → Build and deployment, selecione GitHub Actions.
+O workflow incluído gera e publica o site estático ao enviar alterações à branch main.
+Não publique somente o arquivo page.tsx como um site HTML.
