@@ -88,3 +88,6 @@ Para atualizar o repositório existente, copie os arquivos desta pasta para
 No GitHub, em Settings → Pages → Build and deployment, selecione GitHub Actions.
 O workflow incluído gera e publica o site estático ao enviar alterações à branch main.
 Não publique somente o arquivo page.tsx como um site HTML.
+
+A seção de planejamento segue a paleta roxa e amarela, os títulos em Georgia,
+o alinhamento à esquerda e os espaçamentos das demais seções do infográfico.
