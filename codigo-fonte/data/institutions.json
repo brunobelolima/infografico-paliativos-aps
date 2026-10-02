@@ -1,0 +1,128 @@
+[
+  {
+    "name": "UNIFAP — Curso de Medicina",
+    "city": "Macapá",
+    "uf": "AP",
+    "municipalityId": "1600303",
+    "phone": "(96) 4009-2901",
+    "email": "",
+    "source": "https://www2.unifap.br/medicina/instalacoes-fisicas/"
+  },
+  {
+    "name": "UFPB — Departamento de Enfermagem Clínica",
+    "city": "João Pessoa",
+    "uf": "PB",
+    "municipalityId": "2507507",
+    "phone": "",
+    "email": "secdemca@ccs.ufpb.br",
+    "source": "https://www.ccs.ufpb.br/coordenf/contents/menu/institucional/corpo-social"
+  },
+  {
+    "name": "UFCG — Enfermagem, campus Cuité",
+    "city": "Cuité",
+    "uf": "PB",
+    "municipalityId": "2505105",
+    "phone": "(83) 3372-1924",
+    "email": "enfermagem.ces@graduacao.ufcg.edu.br",
+    "source": "https://www.ces.ufcg.edu.br/portal/e-mails-do-ces/151-unidade-academica-de-enfermagem"
+  },
+  {
+    "name": "IFPB — Campus Mangabeira",
+    "city": "João Pessoa",
+    "uf": "PB",
+    "municipalityId": "2507507",
+    "phone": "",
+    "email": "campus_mangabeira@ifpb.edu.br",
+    "source": "https://portalv1.ifpb.edu.br/mangabeira/contato"
+  },
+  {
+    "name": "UNIFAL-MG — CIECP, Ana Cláudia Garcia",
+    "city": "Alfenas",
+    "uf": "MG",
+    "municipalityId": "3101607",
+    "phone": "",
+    "email": "ana.mesquita@unifal-mg.edu.br",
+    "source": "https://www.unifal-mg.edu.br/ciecp/pesquisadores/"
+  },
+  {
+    "name": "UFSCar — Especialização em Cuidados Paliativos",
+    "city": "São Carlos",
+    "uf": "SP",
+    "municipalityId": "3548906",
+    "phone": "",
+    "email": "paliativos@ufscar.br",
+    "source": "https://www.saci.ufscar.br/servico_release?id=154833&pro=3"
+  },
+  {
+    "name": "USP — EERP, Fabiana Bolela",
+    "city": "Ribeirão Preto",
+    "uf": "SP",
+    "municipalityId": "3543402",
+    "phone": "",
+    "email": "fbolela@usp.br",
+    "source": "https://www.unifal-mg.edu.br/ciecp/pesquisadores/"
+  },
+  {
+    "name": "UNIFESP — Departamento de Medicina",
+    "city": "São Paulo",
+    "uf": "SP",
+    "municipalityId": "3550308",
+    "phone": "(11) 5576-4228",
+    "email": "departamento.medicina@unifesp.br",
+    "source": "https://medicina.unifesp.br/"
+  },
+  {
+    "name": "UNICAMP — Thalyta Cristina Mansano Schlosser",
+    "city": "Campinas",
+    "uf": "SP",
+    "municipalityId": "3509502",
+    "phone": "",
+    "email": "tmansano@unicamp.br",
+    "source": "https://portal.fcm.unicamp.br/pos-graduacao/mestrado-doutorado-stricto-sensu/gerontologia/programa/corpo-docente/"
+  },
+  {
+    "name": "UFRJ — Faculdade de Medicina",
+    "city": "Rio de Janeiro",
+    "uf": "RJ",
+    "municipalityId": "3304557",
+    "phone": "(21) 3938-6681 / 3938-6708",
+    "email": "",
+    "source": "https://medicina.ufrj.br/"
+  },
+  {
+    "name": "UFPR — Departamento de Medicina Integrada",
+    "city": "Curitiba",
+    "uf": "PR",
+    "municipalityId": "4106902",
+    "phone": "(41) 3360-7228",
+    "email": "medintegrada@ufpr.br",
+    "source": "https://saude.ufpr.br/medintegrada/contato/"
+  },
+  {
+    "name": "UFPel — CUIDATIVA",
+    "city": "Pelotas",
+    "uf": "RS",
+    "municipalityId": "4314407",
+    "phone": "",
+    "email": "cuidativaufpel@gmail.com",
+    "source": "https://cuidativa.ufpel.edu.br/index.php/contato/"
+  },
+  {
+    "name": "UFSJ — Curso de Cuidados Paliativos",
+    "city": "São João del-Rei",
+    "uf": "MG",
+    "municipalityId": "3162500",
+    "phone": "",
+    "email": "cuidadospaliativos@ufsj.edu.br",
+    "source": "https://www.ufsj.edu.br/pgcuidadospaliativos/processo_seletivo.php"
+  },
+  {
+    "name": "FURB — Coordenação de Medicina",
+    "city": "Blumenau",
+    "uf": "SC",
+    "municipalityId": "4202404",
+    "phone": "(47) 3321-0258",
+    "email": "medicina@furb.br",
+    "source": "https://www.furb.br/pt/institucional/estrutura"
+  }
+]
